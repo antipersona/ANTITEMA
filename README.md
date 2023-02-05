@@ -9,11 +9,12 @@ The chrome folder is a theme for firefox. It should be placed into ~/.mozilla/fi
 The rest of the folders should be placed on ~/.config/
 
 
-- The spicetify theme was made using from Onepunch theme by okarin001 as a base.
+- The spicetify theme was made using Onepunch theme by okarin001 as a base.
     https://github.com/okarin001/Onepunch
 
-- Betterdiscord theme is a modification of amoled-cord by LuckFire.
+- Betterdiscord theme is a small modification of amoled-cord by LuckFire.
     https://github.com/LuckFire/amoled-cord
+    
 - Slightly modified version of the rounded theme for rofi by LR-Tech.
     https://github.com/lr-tech/rofi-themes-collection
 
