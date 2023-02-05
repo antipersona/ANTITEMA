@@ -1,0 +1,28 @@
+@import "ANTIPC.rasi"
+
+window {
+    background-color:   transparent;
+    location:       center;
+    width:          400;
+    border-color:   @accent;
+    border:         3px;
+}
+
+entry {
+    placeholder:        "";
+}
+
+listview {
+    background-color:   transparent;
+    margin:     12px 0 0;
+    lines:      3;
+    columns:    2;    
+    fixed-height: false;
+}
+
+element {
+    padding:        6px 0px;
+    spacing:        0px;
+    border-radius:  32px;
+}
+

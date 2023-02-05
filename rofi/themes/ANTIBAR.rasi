@@ -1,0 +1,11 @@
+@import "ANTIPC.rasi"
+
+window {
+    location:   south east;
+}
+
+element {
+    padding:        6px 16px;
+    spacing:        8px;
+    border-radius:  32px;
+}
