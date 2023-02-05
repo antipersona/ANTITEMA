@@ -9,16 +9,16 @@ The chrome folder is a theme for firefox. It should be placed into ~/.mozilla/fi
 The rest of the folders should be placed on ~/.config/
 
 
-The spicetify theme was made using from Onepunch theme by okarin001 as a base
-https://github.com/okarin001/Onepunch
+- The spicetify theme was made using from Onepunch theme by okarin001 as a base.
+    https://github.com/okarin001/Onepunch
 
-Betterdiscord theme is a modification of amoled-cord by LuckFire
-https://github.com/LuckFire/amoled-cord
+- Betterdiscord theme is a modification of amoled-cord by LuckFire.
+    https://github.com/LuckFire/amoled-cord
+- Slightly modified version of the rounded theme for rofi by LR-Tech.
+    https://github.com/lr-tech/rofi-themes-collection
 
-Slightly modified version of the rounded theme for rofi by LR-Tech.
-https://github.com/lr-tech/rofi-themes-collection
-
-For the icons in the polybar i use awesome-font.
+- For the icons in the polybar i use awesome-font.
+    https://fontawesome.com/
 
 
 ![terminal](screenshots/fetch.png)
@@ -101,5 +101,6 @@ For vsCode, you will need to add the following lines to your settings.json file:
 },
 "window.titleBarStyle": "custom",
 ```
+
 
     
