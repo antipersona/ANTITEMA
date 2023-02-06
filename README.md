@@ -1,4 +1,5 @@
-ANTITEME:
+ANTITEMA:
+
 This is the theme that i use in my computer.
     
 There are two modalities: the pink one and the more purple. The good one is the purple one, the pink one is an adaptation of the colors so they look like the purple in my laptop screen.
