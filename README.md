@@ -120,10 +120,24 @@ sudo make install
 ```
 #4 Then run ```i3-volume -n -p -N herbe listen```
 
-![notifications](screenshots/Notis.png)
+![notifications](screenshots/noti.png)
 
 
 ### Wallpaper
 I dont use any wallpaper but this was my inspiration for the theme.
 It was made by me, from an original piece by Jose Segrelles.
 ![wallpaper](screenshots/Jose_Segrelles_El_alienigena_2.jpg) 
+
+
+### Dependencies and some programs used
+- [polybar](https://github.com/polybar/polybar)
+- [rofi](https://github.com/davatorium/rofi)
+- [rofi-wifi-menu](https://github.com/zbaylin/rofi-wifi-menu) to fix the empty password bug check this [issue](https://github.com/zbaylin/rofi-wifi-menu/issues/22)
+- [rofi-bluetooth](https://github.com/nickclyde/rofi-bluetooth)
+- [rofi-power-menu](https://github.com/jluttine/rofi-power-menu)
+- [rofi-mixer](https://github.com/joshpetit/rofi-mixer)
+- [spiceify](https://spicetify.app/)
+- [betterdiscord](https://github.com/BetterDiscord/BetterDiscord)
+- [herbe](https://github.com/dudik/herbe)
+- [i3-volume](https://github.com/hastinbe/i3-volume)
+- [greenclip](https://github.com/erebe/greenclip)
