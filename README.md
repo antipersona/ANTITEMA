@@ -1,35 +1,32 @@
-ANTITEMA:
+# ANTITEMA:
 
-This is the theme that i use in my computer.
-    
-There are two modalities: the pink one and the more purple. The good one is the purple one, the pink one is an adaptation of the colors so they look like the purple in my laptop screen.
+This is the theme that i use in my laptop.
 
-
-The chrome folder is a theme for firefox. It should be placed into ~/.mozilla/firefox/<profile>/chrome/ and the chrome folder should be placed into ~/.mozilla/firefox/<profile>/ (in my case). You can check where is your .mozilla folder by typing about:profiles in the address bar of firefox.
+The chrome folder is a theme for firefox. It should be placed into ~/.mozilla/firefox/[profile]/chrome/ (in my case). You can check where is your .mozilla folder by typing about:profiles in the address bar of firefox.
 
 The rest of the folders should be placed on ~/.config/
 
-
-- The spicetify theme was made using Onepunch theme by okarin001 as a base.
-    https://github.com/okarin001/Onepunch
-
-- Betterdiscord theme is a small modification of amoled-cord by LuckFire.
-    https://github.com/LuckFire/amoled-cord
-    
-- Slightly modified version of the rounded theme for rofi by LR-Tech.
-    https://github.com/lr-tech/rofi-themes-collection
-
-- For the icons in the polybar i use awesome-font.
-    https://fontawesome.com/
-
-
 ![terminal](screenshots/fetch.png)
+
+
+- The spicetify theme was made using [Onepunch](https://github.com/okarin001/Onepunch) theme by okarin001 as a base.
+
+- Betterdiscord theme is a small modification of [amoled-cord](https://github.com/LuckFire/amoled-cord) by LuckFire.
+    
+- Slightly modified version of the [rounded theme for rofi](https://github.com/lr-tech/rofi-themes-collection) by LR-Tech.
+    
+
+- For the icons in the polybar i use [awesome-font](https://fontawesome.com/).
+    
+    
+### Images
 ![rofi1](screenshots/rofi_1.png)
 ![rofi2](screenshots/rofi_2.png)
-![vscode](screenshots/vscode.png)
-![firefox](screenshots/firefox.gif)
 ![spotify](screenshots/spoti.png)
+![firefox](screenshots/firefox.gif)
+![vscode](screenshots/vscode.png)
 
+### VSCode
 For vsCode, you will need to add the following lines to your settings.json file:
 
 ```
@@ -104,8 +101,29 @@ For vsCode, you will need to add the following lines to your settings.json file:
 "window.titleBarStyle": "custom",
 ```
 
+### Notifications
+I only use notifications to check the volume;
+I use [herbe](https://github.com/dudik/herbe).
+
+The way to set up the notifications for this theme is:
+
+#1: Clone herbe
+```
+git clone https://github.com/dudik/herbe
+cd herbe
+```
+#2: Change the default config.h for my modified version
+
+#3: Install 
+```
+sudo make install
+```
+#4 Then run ```i3-volume -n -p -N herbe listen```
+
+![notifications](screenshots/Notis.png)
+
+
+### Wallpaper
 I dont use any wallpaper but this was my inspiration for the theme.
 It was made by me, from an original piece by Jose Segrelles.
 ![wallpaper](screenshots/Jose_Segrelles_El_alienigena_2.jpg) 
-
-    
