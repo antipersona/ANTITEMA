@@ -106,6 +106,6 @@ For vsCode, you will need to add the following lines to your settings.json file:
 
 I dont use any wallpaper but this was my inspiration for the theme.
 It was made by me, from an original piece by Jose Segrelles.
-![wallpaper](screenshots/Jose Segrelles_El_alienigena_2.jpg) 
+![wallpaper](screenshots/Jose_Segrelles_El_alienigena_2.jpg) 
 
     
