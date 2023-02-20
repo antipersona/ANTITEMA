@@ -34,6 +34,13 @@
   background         = 000000
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+
+* {
+  font-family: 'Manrope', sans-serif !important;
+}
+
 /* Left Bar */
 /* Home, Search, Your Library,... */
 
@@ -53,7 +60,7 @@
 .logo {
   background-color: var(--spice-accent) !important;
   border-radius: 25px !important;
-  color: var(--spice-main) !important;
+  color: var(--spice-background) !important;
 }
 
 /* active tab hover */
@@ -61,7 +68,7 @@
 .logo:hover {
   background-color: var(--spice-accent-light) !important;
   border-radius: 25px !important;
-  color: var(--spice-main) !important;
+  color: var(--spice-background) !important;
 }
 
 /* create playlist, liked songs icons */
@@ -125,7 +132,7 @@
 
 /* play button in main page -- idk */
 .main-playButton-PlayButton.main-playButton-primary {
-  color: var(--spice-main) !important;
+  color: var(--spice-background) !important;
   background-color: var(--spice-button) !important;
 }
 
@@ -146,7 +153,6 @@
   opacity: 0 !important;
 }
 
-/* idk */
 /* Remove Topbar background colour */
 .main-topBar-background {
   background-color: unset !important;
@@ -154,7 +160,7 @@
 
 .main-topBar-overlay,
 .x-441-actionBarBackground-background {
-  background-color: var(--spice-main) !important;
+  background-color: var(--spice-background) !important;
 }
 
 /* idk */
@@ -176,6 +182,7 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
 .main-entityTitle-subtitle.main-entityTitle-gray,
 .main-entityHeader-metaDataText {
   color: var(--spice-text) !important;
+
 }
 
 /* duration ? */
@@ -195,13 +202,13 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
 
 .main-entityHeader-background.main-entityHeader-overlay:after {
   background-image: linear-gradient(transparent, transparent),
-    linear-gradient(var(--spice-main), var(--spice-main));
+    linear-gradient(var(--spice-background), var(--spice-background));
 }
 
 .artist-artistPick-pickComment {
-  background: var(--spice-main) !important;
+  background: var(--spice-background) !important;
   border-radius: 25px !important;
-  border-bottom: solid 2px var(--spice-main) !important;
+  border-bottom: solid 2px var(--spice-background) !important;
   color: var(--spice-text) !important;
 }
 
@@ -259,8 +266,6 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
 .main-buddyFeed-activityMetadata .main-buddyFeed-usernameAndTimestamp a {
   color: var(--spice-subtext) !important;
 }
-
-/* TODO cambiar el color del titulo firend activity */
 
 
 .main-buddyFeed-activityMetadata .main-buddyFeed-username a {
@@ -350,14 +355,20 @@ input:checked:hover:not([disabled]):not(:active)~.x-toggle-indicatorWrapper {
 
 /* SEARCH PAGE */
 
-input {
-  background-color: unset !important;
-  border-bottom: solid 2px var(--spice-text) !important;
-  border-radius: 0 !important;
+.x-searchInput-searchInputSearchIcon,
+.x-searchInput-searchInputClearButton {
   color: var(--spice-accent) !important;
 }
 
-.x-833-searchInput-searchInputSearchIcon {
+.x-searchInput-searchInputInput {
+  color: var(--spice-accent) !important;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+input {
+  background-color: unset !important;
+  border-radius: 0 !important;
   color: var(--spice-accent) !important;
 }
 
@@ -429,48 +440,22 @@ input {
 }
 
 
-/* PROFILE PAGE */
-.main-cardImage-imageWrapper {
-  background-color: var(--spice-card) !important;
-}
-
-
 /* NOW PLAYING */
 
-.Root__now-playing-bar {
-  background-color: var(--spice-main) !important;
-  box-shadow: 0 -2px 5px 0 rgba(var(--spice-rgb-shadow), 0.5) !important;
-  border-radius: 15px 15px 0 0 !important;
-}
-
-.main-nowPlayingBar-container {
-  background-color: var(--spice-main) !important;
-  border-radius: 15px 15px 0 0 !important;
-}
-
 .main-connectBar-connectBar.main-connectBar-FullscreenModeButtonEnabled.main-type-mesto {
-  color: var(--spice-main) !important;
+  color: var(--spice-background) !important;
 }
 
 .progress-bar {
   --progress-bar-height: 5px !important;
-  color: var(--spice-accent) !important;
-}
-
-.progress-bar__bg {
-  background-color: rgba(var(--spice-rgb-button-disabled), 0.7) !important;
-}
-
-.progress-bar--is-active .progress-bar__fg,
-:not(.no-focus-outline) .progress-bar:focus-within .progress-bar__fg {
-  background-color: var(--fg-color);
+  /* --fg-color: var(--spice-accent) !important; */
 }
 
 .main-shuffleButton-button.main-shuffleButton-on,
 .main-repeatButton-button.main-repeatButton-on {
-  color: var(--spice-button) !important;
+  color: var(--spice-accent) !important;
 }
 
 .cover-art--with-auto-height {
-  border: solid var(--spice-main) 5px !important;
+  border: solid var(--spice-background) 5px !important;
 }
