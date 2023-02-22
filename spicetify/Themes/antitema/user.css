@@ -7,7 +7,6 @@
 /* NOTES:
    I use my own color nomenclatures since i find confuisng the ones used by spicetify,
    i might try to change them in the future.
-
   text               = lighter accent color
   subtext            = light accent color
   extratext          = most vibrant text color == accent
@@ -26,7 +25,6 @@
   notification       = accent
   notification-error = idk
   misc               = idk
-
   ;my custom colors
   accent             = a287be
   accent-light       = d7c9e2
@@ -114,20 +112,6 @@
 
 .queue-tabBar-headerItemLink {
   color: var(--spice-accent) !important;
-}
-
-/* header colored backgrounds -- idk */
-.main-home-homeHeader,
-.x-441-entityHeader-overlay,
-.main-actionBarBackground-background,
-.main-entityHeader-overlay,
-.main-entityHeader-backgroundColor,
-.x-914-entityHeader-overlay,
-.x-entityHeader-overlay,
-.x-914-actionBarBackground-background,
-.x-actionBarBackground-background {
-  background-color: unset !important;
-  background-image: unset !important;
 }
 
 /* play button in main page -- idk */
@@ -372,24 +356,14 @@ input {
   color: var(--spice-accent) !important;
 }
 
-/* recent search titles ??*/
-.x-833-heroCategoryCard-heroTitle,
-.x-833-categoryCard-title {
-  color: var(--spice-subtext) !important;
-}
+*
 
-/* menu and dropdown menus including the user menu */
-.main-type-mesto,
-.x-533-dropDown-dropDown {
-  color: var(--spice-subtext) !important;
-}
-
+/* User widget */
 .main-userWidget-box {
-  background-color: var(--spice-card) !important;
+  background-color: var(--spice-main) !important;
   border: unset !important;
-  color: var(--spice-subtext) !important;
+  color: var(--spice-accent) !important;
 }
-
 
 
 /* CARD PAGE */
@@ -448,14 +422,53 @@ input {
 
 .progress-bar {
   --progress-bar-height: 5px !important;
-  /* --fg-color: var(--spice-accent) !important; */
+  --fg-color: var(--spice-accent) !important;
 }
 
-.main-shuffleButton-button.main-shuffleButton-on,
-.main-repeatButton-button.main-repeatButton-on {
-  color: var(--spice-accent) !important;
+.main-shuffleButton-active,
+.main-repeatButton-active {
+  color: var(--spice-accent-light) !important;
 }
 
 .cover-art--with-auto-height {
   border: solid var(--spice-background) 5px !important;
 }
+
+.main-playPauseButton-button {
+  background-color: var(--spice-accent) !important;
+}
+
+.main-playPauseButton-button:hover {
+  background-color: var(--spice-accent-light) !important;
+}
+
+/***** EXTRA STUFF *****/
+
+/* browse all in search page titles (made for you, charts, etc)
+.x-categoryCard-title {
+  color: var(--spice-misc) !important;
+}
+*/
+
+/* menu and dropdown menus including the user menu 
+.main-type-mesto,
+.x-dropDown-dropDown {
+  color: var(--spice-misc) !important;
+}
+*/
+
+/* header colored backgrounds -- idk 
+.main-home-homeHeader,
+.x-441-entityHeader-overlay,
+.main-actionBarBackground-background,
+.main-entityHeader-overlay,
+.main-entityHeader-backgroundColor,
+.x-914-entityHeader-overlay,
+.x-entityHeader-overlay,
+.x-914-actionBarBackground-background,
+.x-actionBarBackground-background {
+  background-color: var(--spice-misc) !important;
+  background-image: var(--spice-misc) !important;
+}
+
+*/
