@@ -425,13 +425,27 @@ input {
   --fg-color: var(--spice-accent) !important;
 }
 
+/* shuffle and repeat buttons */
+.main-shuffleButton-button,
+.main-repeatButton-button {
+  color: var(--spice-accent-dark) !important;
+}
+
+/* dosent work in my linux laptop */
 .main-shuffleButton-active,
 .main-repeatButton-active {
+  color: var(--spice-accent) !important;
+}
+
+.main-shuffleButton-button:hover,
+.main-repeatButton-button:hover {
   color: var(--spice-accent-light) !important;
 }
 
-.cover-art--with-auto-height {
-  border: solid var(--spice-background) 5px !important;
+/* next and back buttons */
+.main-skipBackButton-button,
+.main-skipForwardButton-button {
+  color: var(--spice-accent);
 }
 
 .main-playPauseButton-button {
@@ -440,6 +454,11 @@ input {
 
 .main-playPauseButton-button:hover {
   background-color: var(--spice-accent-light) !important;
+}
+
+/* adds margings to the album image when its big */
+.cover-art--with-auto-height {
+  border: solid var(--spice-background) 5px !important;
 }
 
 /***** EXTRA STUFF *****/
