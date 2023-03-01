@@ -15,6 +15,14 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
+###### ALWAYS EXEC ######
+# Spanish keymap
+exec setxkbmap -layout es
+exec polybar -r
+
+###### CTRL ALT SUPR #######
+bindsym $Alt+Ctrl+Delete exec rofi -show power-menu -modi power-menu:rofi-power-menu -theme ANTIPOWER
+
 ###### MISC ######
 
 set $mod Mod4
@@ -69,6 +77,9 @@ bindsym $mod+j exec "intellij-idea-ultimate-edition"
 # start firefox
 bindsym $mod+space exec firefox
 #microsoft-edge-stable
+
+# start fileexplorer thunar
+bindsym $mod+e exec thunar
 
 # OPEN LINKS IN THE WEB BROWSER
 # $mod+Control+X -> link
