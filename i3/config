@@ -15,6 +15,10 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
+###### MISC ######
+set $mod Mod4
+set $Alt Mod1
+
 ###### ALWAYS EXEC ######
 # Spanish keymap
 exec setxkbmap -layout es
@@ -23,10 +27,13 @@ exec polybar -r
 ###### CTRL ALT SUPR #######
 bindsym $Alt+Ctrl+Delete exec rofi -show power-menu -modi power-menu:rofi-power-menu -theme ANTIPOWER
 
-###### MISC ######
+##### VOLUME #####
+bindsym XF86AudioRaiseVolume exec i3-volume up 7
+bindsym XF86AudioLowerVolume exec i3-volume down 7
+bindsym XF86AudioMute exec i3-volume mute
 
-set $mod Mod4
-set $Alt Mod1
+#### SCREEN DOSENT WORK AT 144 WITHOUT THIS ####
+# exec xrandr --output DisplayPort-0 --mode 1920x1080 --rate 144
 
 # Gaps
 for_window [class=".*"] border pixel 3
