@@ -5,7 +5,7 @@
 # this file and re-run i3-config-wizard(1).
 #
 
-#LETRAS EN USO: 
+# USED KEYS
  # $mod:	DELETE, RETURN, SPACE, C, M, Q, H, V, F, E, F1, X
  # $mod+Shift:	S, C, D, A
  # $mod+$Alt:	RETURN, S, W, E, A, D, R
@@ -22,6 +22,7 @@ set $Alt Mod1
 ###### ALWAYS EXEC ######
 # Spanish keymap
 exec setxkbmap -layout es
+# Polybar
 exec polybar -r
 
 ###### CTRL ALT SUPR #######
@@ -32,8 +33,8 @@ bindsym XF86AudioRaiseVolume exec i3-volume up 7
 bindsym XF86AudioLowerVolume exec i3-volume down 7
 bindsym XF86AudioMute exec i3-volume mute
 
-#### SCREEN DOSENT WORK AT 144 WITHOUT THIS ####
-# exec xrandr --output DisplayPort-0 --mode 1920x1080 --rate 144
+#### MY SCREEN DOSENT WORK AT 144 WITHOUT THIS ####
+exec xrandr --output DisplayPort-0 --mode 1920x1080 --rate 144
 
 # Gaps
 for_window [class=".*"] border pixel 3
@@ -78,9 +79,6 @@ bindsym $mod+c exec "code"
 # start eclipse
 bindsym $mod+x exec "eclipse"
 
-#start intelliJ idea
-bindsym $mod+j exec "intellij-idea-ultimate-edition"
-
 # start firefox
 bindsym $mod+space exec firefox
 #microsoft-edge-stable
@@ -95,17 +93,11 @@ bindsym $mod+Control+w exec firefox https://web.whatsapp.com/
 #elearning
 bindsym $mod+Control+e exec firefox https://elearning.fh-ooe.at/
 
-# start android studio 
-bindsym $mod+Shift+a exec "android-studio"
-
 # start steam
 bindsym $mod+Shift+s exec steam-runtime
 
 # start discord
 bindsym $mod+Shift+d exec discord
-
-#start cLion
-bindsym $mod+Shift+j exec "user/bin/clion"
 
 # start spotify
 bindsym $mod+m exec spotify
@@ -151,9 +143,9 @@ bindsym $mod+q kill
 # bindsym $mod+l focus up
 # bindsym $mod+semicolon focus right
 
-#switch orientation
-bindsym $mod+$Alt+Up exec "xrandr -o normal"
-bindsym $mod+$Alt+Down exec "xrandr -o inverted"
+#switch screen orientation
+# bindsym $mod+$Alt+Up exec "xrandr -o normal"
+# bindsym $mod+$Alt+Down exec "xrandr -o inverted"
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left

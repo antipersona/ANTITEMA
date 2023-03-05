@@ -40,7 +40,7 @@ configuration {
 }
 
 window {
-    background-color:   transparent;
+    background-color:   #000;
     location:       center;
     width:          480;
     border-color:   @accent;
@@ -89,7 +89,7 @@ textbox {
 listview {
     background-color:   transparent;
     margin:     12px 0 0;
-    lines:      8;
+    lines:      10;
     columns:    1;
 
     fixed-height: false;
