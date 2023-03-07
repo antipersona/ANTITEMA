@@ -1,0 +1,143 @@
+* {
+	border-radius: 10px;
+	font-family: Terminus, "Font Awesome 6 Pro";
+	font-size: 16px;
+	min-height: 10px;
+	margin-top: 0px;
+}
+
+window#waybar {
+	background: transparent;
+}
+
+window#waybar.hidden {
+	opacity: 0.2;
+}
+
+#window {
+	margin-top: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	transition: none;
+	color: transparent;
+	background: transparent;
+}
+
+#custom-launcher {
+	font-size: 16px;
+	margin-left: 4px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 10px;
+	transition: none;
+	color: #000;
+	background: #b78fab;
+}
+
+#workspaces {
+	margin-left: 12px;
+	margin-bottom: 0px;
+	transition: none;
+}
+
+#workspaces button {
+	font-size: 16px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background: #000;
+	color: #b78fab;
+}
+
+#workspaces button.active {
+	font-size: 16px;
+	background: #b78fab;
+	color: #000;
+}
+
+#workspaces button.occupied {
+	border: 2px solid #ff0000;
+}
+
+#workspaces button.focused {
+	color: #b78fab;
+	background: #000;
+	border-top: 2px solid #b78fab;
+	border-bottom: 2px solid #b78fab;
+}
+
+#workspaces button:hover {
+	border: 2px solid #b78fab;
+}
+
+#custom-spotify {
+	font-size: 16px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 10px;
+	transition: none;
+	color: #b78fab;
+	background: #000;
+}
+
+#network {
+	font-size: 16px;
+	margin-left: 4px;
+	padding-left: 2px;
+	padding-right: 2px;
+	border-radius: 10px;
+	transition: none;
+	background: #000;
+	color: #b78fab;
+}
+
+#pulseaudio {
+	font-size: 16px;
+	margin-left: 4px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 10px;
+	transition: none;
+	color: #b78fab;
+	background: #000;
+}
+
+#pulseaudio.muted {
+	background: #000;
+	color: #725866;
+}
+
+#clock {
+	margin-left: 4px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 10px;
+	transition: none;
+	color: #b78fab;
+	background: #000;
+}
+
+#bluetooth {
+	margin-left: 4px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 10px;
+	transition: none;
+	color: #b78fab;
+	background: #000;
+}
+
+#bluetooth.off,
+#bluetooth.disabled {
+	background: #000;
+	color: #725866;
+}
+
+#bluetooth.on {
+	background: #000;
+	color: #b78fab;
+}
+
+#bluetooth.connected {
+	background: #b78fab;
+	color: #000;
+}
