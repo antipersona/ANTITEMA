@@ -121,6 +121,10 @@ It was made by me, from an original piece by Jose Segrelles.
 - [herbe](https://github.com/dudik/herbe)
 - [i3-volume](https://github.com/hastinbe/i3-volume)
 - [greenclip](https://github.com/erebe/greenclip)
+- [waybar](https://github.com/Alexays/Waybar)
+- [wofi-wifi-menu](https://github.com/fourstepper/wofi-wifi-menu) you can find my modification [here](wofi/fix-wifi-menu/wofi-wifi-menu.sh)
+- [mako](https://github.com/emersion/mako)
+- [clipman](https://github.com/yory8/clipman) used with wofi: ```clipman pick -t wofi```
 
 - The spicetify theme was made using [Onepunch](https://github.com/okarin001/Onepunch) theme by okarin001 as a base.
 - Betterdiscord theme is a small modification of [amoled-cord](https://github.com/LuckFire/amoled-cord) by LuckFire.  
