@@ -486,8 +486,70 @@ input {
 .x-entityHeader-overlay,
 .x-914-actionBarBackground-background,
 .x-actionBarBackground-background {
-  background-color: var(--spice-misc) !important;
+ background-color: var(--spice-misc) !important;
   background-image: var(--spice-misc) !important;
 }
 
 */
+
+
+/* SNIPPETS */
+/* hide upgrade button */
+.main-topBar-UpgradeButton {
+  display: none !important;
+}
+
+/* fix liked songs button */
+.main-likedSongsButton-likedSongsIcon {
+  color: var(--spice-sidebar);
+  background: var(--spice-text);
+}
+
+/* fix progress bar displacement */
+.main-connectBar-connectBar {
+  overflow: visible !important;
+  position: absolute !important;
+  display: flex !important;
+  align-items: unset !important;
+  left: 80% !important;
+  height: 20px !important;
+  bottom: 1% !important;
+  padding: 2px !important;
+  background-color: transparent !important;
+  color: var(--spice-text) !important;
+}
+
+.control-button::after {
+  display: none !important;
+}
+
+/* remove top gradient */
+.main-entityHeader-backgroundColor {
+  display: none !important;
+}
+.main-actionBarBackground-background {
+  display: none !important;
+}
+.main-home-homeHeader {
+  display: none !important;
+}
+
+/* fix liked button */
+#_R_G *:not([fill="none"]) {
+  fill: var(--spice-button) !important;
+}
+
+#_R_G *:not([stroke="none"]) {
+  stroke: var(--spice-button);
+}
+
+.main-addButton-button[aria-checked="false"] {
+  color: rgba(var(--spice-rgb-selected-row), 0.7);
+}
+
+.control-button-heart[aria-checked="true"],
+.main-addButton-button,
+.main-addButton-active:focus,
+.main-addButton-active:hover {
+  color: var(--spice-button);
+}
