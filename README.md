@@ -1,30 +1,28 @@
 # ANTITEMA:
 
-This is the theme that i use in my laptop.
+This is the theme that i use in my laptop and in my PC.
 
-The chrome folder is a theme for firefox. It should be placed into ~/.mozilla/firefox/[profile]/chrome/ (in my case). You can check where is your .mozilla folder by typing about:profiles in the address bar of firefox.
+Checkout the [hyprland](https://github.com/antipersona/ANTITEMA/tree/Hyprland) and the [i3](https://github.com/antipersona/ANTITEMA/tree/i3) branches to see how it looks in those environments.
 
-The rest of the folders should be placed on ~/.config/
+In this branch you can find a merge of all the dots used by those branches. They are compatible with each other, so you can have and i3 and a hyprland setup in the same machine using this branch.
 
-![terminal](screenshots/fetch.png)
+I will put here some screenshots, the guide for the installation of some of the programs and the dependencies:
 
 
-- The spicetify theme was made using [Onepunch](https://github.com/okarin001/Onepunch) theme by okarin001 as a base.
-
-- Betterdiscord theme is a small modification of [amoled-cord](https://github.com/LuckFire/amoled-cord) by LuckFire.
-    
-- Slightly modified version of the [rounded theme for rofi](https://github.com/lr-tech/rofi-themes-collection) by LR-Tech.
-    
-
-- For the icons in the polybar i use [awesome-font](https://fontawesome.com/).
-    
-    
 ### Images
+![terminal](screenshots/fetch.png)
 ![rofi1](screenshots/rofi_1.png)
 ![rofi2](screenshots/rofi_2.png)
 ![spotify](screenshots/spoti.png)
 ![firefox](screenshots/firefox.gif)
 ![vscode](screenshots/vscode.png)
+
+
+### Installation
+The chrome folder is a theme for firefox. It should be placed into ~/.mozilla/firefox/[profile]/chrome/ (in my case). You can check where is your .mozilla folder by typing about:profiles in the address bar of firefox.
+
+The rest of the folders should be placed on ~/.config/
+
 
 ### VSCode
 For vsCode, you will need to add the following lines to your settings.json file:
@@ -101,36 +99,18 @@ For vsCode, you will need to add the following lines to your settings.json file:
 "window.titleBarStyle": "custom",
 ```
 
+
 ### Notifications
-I only use notifications to check the volume;
-I use [herbe](https://github.com/dudik/herbe).
-
-The way to set up the notifications for this theme is:
-
-#1: Clone herbe
-```
-git clone https://github.com/dudik/herbe
-cd herbe
-```
-#2: Change the default config.h for my modified version
-
-#3: Install 
-```
-sudo make install
-```
-#4 Then run ```i3-volume -n -p -N herbe listen```
-
-![notifications](screenshots/noti.png)
+Notifications deppend of the wm (find them in each branch readme)
 
 
 ### Wallpaper
-I dont use any wallpaper but this was my inspiration for the theme.
 It was made by me, from an original piece by Jose Segrelles.
 ![wallpaper](screenshots/Jose_Segrelles_El_alienigena_2.jpg) 
 
 
 ### Dependencies and some programs used
-- [polybar](https://github.com/polybar/polybar)
+- [polybar](https://github.com/polybar/polybar) 
 - [rofi](https://github.com/davatorium/rofi)
 - [rofi-wifi-menu](https://github.com/zbaylin/rofi-wifi-menu) to fix the empty password bug check this [issue](https://github.com/zbaylin/rofi-wifi-menu/issues/22)
 - [rofi-bluetooth](https://github.com/nickclyde/rofi-bluetooth)
@@ -141,3 +121,8 @@ It was made by me, from an original piece by Jose Segrelles.
 - [herbe](https://github.com/dudik/herbe)
 - [i3-volume](https://github.com/hastinbe/i3-volume)
 - [greenclip](https://github.com/erebe/greenclip)
+
+- The spicetify theme was made using [Onepunch](https://github.com/okarin001/Onepunch) theme by okarin001 as a base.
+- Betterdiscord theme is a small modification of [amoled-cord](https://github.com/LuckFire/amoled-cord) by LuckFire.  
+- Slightly modified version of the [rounded theme for rofi](https://github.com/lr-tech/rofi-themes-collection) by LR-Tech. 
+- For the icons I use [awesome-font](https://fontawesome.com/).
