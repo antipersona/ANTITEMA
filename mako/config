@@ -1,0 +1,10 @@
+font=Terminus
+background-color=#000000
+text-color=#b78fab
+border-color=#b78fab
+border-size=3
+border-radius=7
+progress-color=#b78fab
+icons=1
+text-alignment=center
+default-timeout=6000
