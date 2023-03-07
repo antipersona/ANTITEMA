@@ -1,1 +1,0 @@
-I had some problems with wofi-wifi-menu so I modified it a bit, you can copy it in /usr/bin
