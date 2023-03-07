@@ -1,30 +1,29 @@
-# ANTITEMA:
+# ANTITEMA - HYPERLAND:
 
-This is the theme that i use in my laptop.
+This is the theme that i use in my PC.
+
+It is not done yet. The main issue is the incompatibility between rofi and wayland. Wofi works but some stuff like the bluetooth menu is not ported yet.
 
 The chrome folder is a theme for firefox. It should be placed into ~/.mozilla/firefox/[profile]/chrome/ (in my case). You can check where is your .mozilla folder by typing about:profiles in the address bar of firefox.
 
 The rest of the folders should be placed on ~/.config/
 
-![terminal](screenshots/fetch.png)
+![terminal](screenshots/fetch.png)  //not updated yet
 
 
 - The spicetify theme was made using [Onepunch](https://github.com/okarin001/Onepunch) theme by okarin001 as a base.
 
-- Betterdiscord theme is a small modification of [amoled-cord](https://github.com/LuckFire/amoled-cord) by LuckFire.
-    
-- Slightly modified version of the [rounded theme for rofi](https://github.com/lr-tech/rofi-themes-collection) by LR-Tech.
-    
+- Betterdiscord theme is a small modification of [amoled-cord](https://github.com/LuckFire/amoled-cord) by LuckFire.    
 
-- For the icons in the polybar i use [awesome-font](https://fontawesome.com/).
+- For the icons in wofi and waybar i use [awesome-font](https://fontawesome.com/).
     
     
 ### Images
-![rofi1](screenshots/rofi_1.png)
-![rofi2](screenshots/rofi_2.png)
-![spotify](screenshots/spoti.png)
-![firefox](screenshots/firefox.gif)
-![vscode](screenshots/vscode.png)
+![rofi1](screenshots/rofi_1.png)    //not updated yet
+![rofi2](screenshots/rofi_2.png)    //not updated yet
+![spotify](screenshots/spoti.png)   //not updated yet
+![firefox](screenshots/firefox.gif) //not updated yet
+![vscode](screenshots/vscode.png)   //not updated yet
 
 ### VSCode
 For vsCode, you will need to add the following lines to your settings.json file:
@@ -102,25 +101,9 @@ For vsCode, you will need to add the following lines to your settings.json file:
 ```
 
 ### Notifications
-I only use notifications to check the volume;
-I use [herbe](https://github.com/dudik/herbe).
+I use [mako](https://github.com/emersion/mako).
 
-The way to set up the notifications for this theme is:
-
-#1: Clone herbe
-```
-git clone https://github.com/dudik/herbe
-cd herbe
-```
-#2: Change the default config.h for my modified version
-
-#3: Install 
-```
-sudo make install
-```
-#4 Then run ```i3-volume -n -p -N herbe listen```
-
-![notifications](screenshots/noti.png)
+![notifications](screenshots/noti.png) //not updated yet
 
 
 ### Wallpaper
@@ -130,14 +113,12 @@ It was made by me, from an original piece by Jose Segrelles.
 
 
 ### Dependencies and some programs used
-- [polybar](https://github.com/polybar/polybar)
+- [waybar](https://github.com/Alexays/Waybar)
 - [rofi](https://github.com/davatorium/rofi)
-- [rofi-wifi-menu](https://github.com/zbaylin/rofi-wifi-menu) to fix the empty password bug check this [issue](https://github.com/zbaylin/rofi-wifi-menu/issues/22)
-- [rofi-bluetooth](https://github.com/nickclyde/rofi-bluetooth)
-- [rofi-power-menu](https://github.com/jluttine/rofi-power-menu)
-- [rofi-mixer](https://github.com/joshpetit/rofi-mixer)
+- [wofi-wifi-menu](https://github.com/fourstepper/wofi-wifi-menu) you can find my modification [here](wofi/fix-wifi-menu/wofi-wifi-menu.sh)
+- [rofi-bluetooth](https://github.com/nickclyde/rofi-bluetooth)    // to be ported to wofi
+- [rofi-mixer](https://github.com/joshpetit/rofi-mixer)            // to be ported to wofi
 - [spiceify](https://spicetify.app/)
 - [betterdiscord](https://github.com/BetterDiscord/BetterDiscord)
-- [herbe](https://github.com/dudik/herbe)
-- [i3-volume](https://github.com/hastinbe/i3-volume)
-- [greenclip](https://github.com/erebe/greenclip)
+- [mako](https://github.com/emersion/mako)
+- [clipman](https://github.com/yory8/clipman) used with wofi: ```clipman pick -t wofi```
