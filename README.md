@@ -111,12 +111,22 @@ I dont use any wallpaper but this was my inspiration for the theme.
 It was made by me, from an original piece by Jose Segrelles.
 ![wallpaper](screenshots/Jose_Segrelles_El_alienigena_2.jpg) 
 
+### wofi-fix-wifi-menu and wofi-bluetooth
+I made some modifications to wofi-wifi-menu to make it work in my system (the [empty password issue](https://github.com/zbaylin/rofi-wifi-menu/issues/22)) and to rofi-bluetooth to make it work with wofi. I also added some configuration like wofi-wifi-menu has. You can find them in the wofi folder.
+You can install them by running this commands:
+```
+sudo install -D -m 755 -t "/usr/bin/" .config/wofi/wofi-bluetooth/wofi-bluetooth
+sudo install -D -m 755 -t "/usr/bin/" .config/wofi/wofi-fix-wifi-menu/wofi-wifi-menu
+```
+Or you can just change the references from wofi-wifi-menu and wofi-bluetooth to the path where you have the modified versions.
+
+
 
 ### Dependencies and some programs used
 - [waybar](https://github.com/Alexays/Waybar)
 - [rofi](https://github.com/davatorium/rofi)
-- [wofi-wifi-menu](https://github.com/fourstepper/wofi-wifi-menu) you can find my modification [here](wofi/fix-wifi-menu/wofi-wifi-menu.sh)
-- [rofi-bluetooth](https://github.com/nickclyde/rofi-bluetooth)    // to be ported to wofi
+- [wofi-wifi-menu](https://github.com/fourstepper/wofi-wifi-menu) you can find my modification [here](wofi/wofi-wifi-menu/wofi-wifi-menu)
+- [rofi-bluetooth](https://github.com/nickclyde/rofi-bluetooth)   (ported to wofi) you can find my modification [here](wofi/wofi-bluetooth/wofi-bluetooth)
 - [rofi-mixer](https://github.com/joshpetit/rofi-mixer)            // to be ported to wofi
 - [spiceify](https://spicetify.app/)
 - [betterdiscord](https://github.com/BetterDiscord/BetterDiscord)
