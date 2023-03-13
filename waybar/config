@@ -6,6 +6,7 @@
 	"modules-right": [ "network#0", "network#1", "bluetooth","pulseaudio","clock", "custom/clipboard"],
 	
     "custom/launcher":{
+        "tooltip": false,
         "format": "",
         "on-click": "wofi --show drun --x 0 --y 508",
         "on-click-right": "killall wofi"
@@ -24,7 +25,7 @@
     },
 
     "network#1": {
-        "tooltip": false,
+        "tooltip": true,
         "format-ethernet": "",
         "format-wifi": " {icon} ",
         "format-icons": {
@@ -37,7 +38,7 @@
 
     "network#0": {
         "interface": "enp10s0",
-        "tooltip": false,
+        "tooltip": true,
         "format-ethernet": "  ",
         "format-disconnected": "",
         "on-click-right": "nm-connection-editor",
