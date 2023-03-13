@@ -1,0 +1,13 @@
+# Config for wofi-bluetooth
+
+# position values:
+# 1 2 3
+# 8 0 4
+# 7 6 5
+POSITION=1
+
+#y-offset
+YOFF=508
+#x-offset
+XOFF=1414
+

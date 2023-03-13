@@ -1,49 +1,62 @@
 {
-	"layer": "bottom",
+    "layer": "bottom",
     "position": "bottom",
-	"modules-left": ["custom/launcher", "wlr/workspaces"],
-	"modules-center": ["custom/spotify"],
-	"modules-right": [ "network#0", "network#1", "bluetooth","pulseaudio","clock", "custom/clipboard"],
-	
-    "custom/launcher":{
+    "modules-left": [
+        "custom/launcher",
+        "wlr/workspaces"
+    ],
+    "modules-center": [
+        "custom/spotify"
+    ],
+    "modules-right": [
+        "network#0",
+        "network#1",
+        "bluetooth",
+        "pulseaudio",
+        "clock",
+        "custom/clipboard"
+    ],
+    "custom/launcher": {
+        "tooltip": false,
         "format": "",
         "on-click": "wofi --show drun --x 0 --y 508",
         "on-click-right": "killall wofi"
     },
-
     "wlr/workspaces": {
         "num-tags": 10,
         "on-click": "activate"
     },
-
     "custom/spotify": {
         "format": " {} ",
         "exec": "~/.config/waybar/scripts/spotify/spoty.py -f '{artist} - {song}'",
         "interval": 5,
         "on-click": "playerctl play-pause"
     },
-
     "network#1": {
-        "tooltip": false,
+        "tooltip": true,
+        "tooltip-format": "{ssid}",
         "format-ethernet": "",
         "format-wifi": " {icon} ",
         "format-icons": {
-            "default": ["", "", ""]
+            "default": [
+                "",
+                "",
+                ""
+            ]
         },
         "format-disconnected": "  ",
         "on-click-right": "nm-connection-editor",
         "on-click": "wofi-wifi-menu"
     },
-
     "network#0": {
         "interface": "enp10s0",
-        "tooltip": false,
+        "tooltip": true,
+        "tooltip-format": "{ssid}",
         "format-ethernet": "  ",
         "format-disconnected": "",
         "on-click-right": "nm-connection-editor",
         "on-click": "wofi-wifi-menu"
     },
-
     "bluetooth": {
         "format": "  ",
         "format-disabled": "  ",
@@ -54,7 +67,6 @@
         "on-click-right": "blueman-manager",
         "on-click": "wofi-bluetooth"
     },
-
     "pulseaudio": {
         "format": " {icon} ",
         "tooltip": true,
@@ -85,7 +97,6 @@
         "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -7%",
         "max-volume": 200
     },
-
     "clock": {
         "tooltip": true,
         "tooltip-format": "{:%A, %d %B %Y}",
