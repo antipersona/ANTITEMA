@@ -65,6 +65,10 @@ window#waybar.hidden {
 	border-bottom: 2px solid #b78fab;
 }
 
+#workspaces button.urgent {
+	border: 2px solid #ff0000;
+}
+
 #workspaces button:hover {
 	border: 2px solid #b78fab;
 }
