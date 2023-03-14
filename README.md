@@ -116,7 +116,7 @@ I made some modifications to wofi-wifi-menu to make it work in my system (the [e
 You can install them by running this commands:
 ```
 sudo install -D -m 755 -t "/usr/bin/" .config/wofi/wofi-bluetooth/wofi-bluetooth
-sudo install -D -m 755 -t "/usr/bin/" .config/wofi/wofi-fix-wifi-menu/wofi-wifi-menu
+sudo install -D -m 755 -t "/usr/bin/" .config/wofi/wofi-wifi-menu/wofi-wifi-menu
 ```
 Or you can just change the references from wofi-wifi-menu and wofi-bluetooth to the path where you have the modified versions.
 
