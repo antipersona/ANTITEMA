@@ -23,6 +23,7 @@
         "on-click-right": "killall wofi"
     },
     "wlr/workspaces": {
+        "sort-by-number": true,
         "num-tags": 10,
         "on-click": "activate"
     },

@@ -61,16 +61,14 @@ window#waybar.hidden {
 #workspaces button.focused {
 	color: #b78fab;
 	background: #000;
-	border-top: 2px solid #b78fab;
-	border-bottom: 2px solid #b78fab;
 }
 
 #workspaces button.urgent {
-	border: 2px solid #ff0000;
+	border: 1px solid #ff0000;
 }
 
 #workspaces button:hover {
-	border: 2px solid #b78fab;
+	border: 1px solid #b78fab;
 }
 
 #custom-spotify {
