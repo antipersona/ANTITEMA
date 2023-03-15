@@ -21,6 +21,8 @@ I will put here some screenshots, the guide for the installation of some of the 
 ### Installation
 The chrome folder is a theme for firefox. It should be placed into ~/.mozilla/firefox/[profile]/chrome/ (in my case). You can check where is your .mozilla folder by typing about:profiles in the address bar of firefox.
 
+The firefox theme is a modification of [this one](https://github.com/datguypiko/Firefox-Mod-Blur)
+
 The rest of the folders should be placed on ~/.config/
 
 
