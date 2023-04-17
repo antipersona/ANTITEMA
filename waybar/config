@@ -13,6 +13,7 @@
         "network#1",
         "bluetooth",
         "pulseaudio",
+        /*"battery",*/
         "clock",
         "custom/clipboard"
     ],
@@ -24,6 +25,7 @@
     },
     "wlr/workspaces": {
         "num-tags": 10,
+        "sort-by-number": true,
         "on-click": "activate"
     },
     "custom/spotify": {
@@ -103,5 +105,21 @@
         "interval": 60,
         "format": "{:%H:%M}",
         "max-length": 25
-    }
+    }/*,
+    "battery": {
+        "interval": 60,
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-icons": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "max-length": 25
+    }*/
 }
