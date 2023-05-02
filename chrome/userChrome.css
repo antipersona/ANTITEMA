@@ -556,7 +556,7 @@ menuseparator #context-sep-navigation {
 /* ----- Menu Colors -- border - rgba(82, 82, 94, 0.31) ----- */
 :not(#ContentSelectDropdown)>menupopup {
     --panel-border-color: var(--arrowpanel-border-color) !important;
-    --panel-background: var(--extra-tab-active-bg-color) !important;
+    --panel-background: var(--main-bg-color) !important;
     --panel-padding: 5px 0 5px !important;
     --panel-border-radius: 8px !important;
 }
