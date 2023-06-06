@@ -436,7 +436,7 @@ if you change --tab-min-height it doesnt work for fullcreen
 /* ----------------------------------------------------------------- */
 
 /* ----- Close/min/max fix ----- */
-#toolbar-menubar .titlebar-button {
+/* #toolbar-menubar .titlebar-button {
     padding-block: 0px !important;
 }
 
@@ -506,7 +506,7 @@ if you change --tab-min-height it doesnt work for fullcreen
     #navigator-toolbox:not([inFullscreen]) #nav-bar {
         padding-left: initial !important;
     }
-}
+} */
 
 /* ----------------------------------------------------------------- */
 /* ----------------------------------------------------------------- */
@@ -755,8 +755,7 @@ toolbar #new-tab-button:not([disabled="true"]):not([checked]):not([open]):not(:a
     list-style-image: url("image/right-arrow.svg") !important;
 }
 
-/* Styling Extra search bar that you can add to firefox */
-#search-container #searchbar {
+Styling Extra search bar that you can add to firefox #search-container #searchbar {
     outline: 0 !important;
     border: 0 !important;
     border-radius: var(--border-radius) !important;
@@ -807,8 +806,11 @@ toolbar #new-tab-button:not([disabled="true"]):not([checked]):not([open]):not(:a
 
 menubar,
 toolbar,
-nav-bar,
-#TabsToolbar>* {
+nav-bar
+
+/*,
+ #TabsToolbar>* */
+    {
     background-color: var(--main-bg-color) !important;
 }
 
