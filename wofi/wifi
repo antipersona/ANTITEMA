@@ -1,15 +1,16 @@
-# Config for wofi-wifi-menu
+# Config for wofi-wifi
 
 # position values:
 # 1 2 3
 # 8 0 4
 # 7 6 5
-POSITION=1
+POSITION=5
 
 #y-offset
-YOFF=655
+YOFF=-27
 #x-offset
-XOFF=1295
+XOFF=-27
+
 
 #fields to be displayed
 FIELDS=SSID,IN-USE,BARS,SECURITY

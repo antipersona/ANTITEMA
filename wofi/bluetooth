@@ -4,10 +4,10 @@
 # 1 2 3
 # 8 0 4
 # 7 6 5
-POSITION=1
+POSITION=5
 
 #y-offset
-YOFF=508
+YOFF=-27
 #x-offset
-XOFF=1414
+XOFF=-27
 
