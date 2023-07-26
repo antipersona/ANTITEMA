@@ -128,6 +128,7 @@ It was made by me, from an original piece by Jose Segrelles.
 - [mako](https://github.com/emersion/mako)
 - [clipman](https://github.com/yory8/clipman) used with wofi: ```clipman pick -t wofi```
 - [hyprshot](https://github.com/Gustash/Hyprshot)
+- [brightnessctl]
 
 - The spicetify theme was made using [Onepunch](https://github.com/okarin001/Onepunch) theme by okarin001 as a base.
 - Betterdiscord theme is a small modification of [amoled-cord](https://github.com/LuckFire/amoled-cord) by LuckFire.  
