@@ -20,7 +20,7 @@
     "custom/launcher": {
         "tooltip": false,
         "format": "",
-        "on-click": "wofi --show drun --x 0 --y 508",
+        "on-click": "sleep 0.05 && wofi --show drun --x 0 --y 508",
         "on-click-right": "killall wofi"
     },
     "wlr/workspaces": {
@@ -74,8 +74,6 @@
         "tooltip": true,
         "tooltip-format": "{icon} {volume}%",
         "format-muted": "  ",
-        "format-bluetooth": "  ",
-        "format-bluetooth-muted": "  ",
         "format-icons": {
             "default": [
                 "",
@@ -105,7 +103,8 @@
         "interval": 60,
         "format": "{:%H:%M}",
         "max-length": 25
-    }/*,
+    }
+    /*,
     "battery": {
         "interval": 60,
         "states": {
