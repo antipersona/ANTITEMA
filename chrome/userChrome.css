@@ -177,19 +177,20 @@
 }
 
 /* ========================= Icons ======================================= */
-#PanelUI-menu-button {
+/* #PanelUI-menu-button {
     list-style-image: url(image/firefox.svg) !important;
-    color: var(--button-text-color) !important;
+    filter: invert(70%) sepia(5%) saturate(1713%) hue-rotate(265deg) brightness(88%) contrast(82%);
 }
 
 #forward-button {
     list-style-image: url(image/right-arrow.svg) !important;
-    color: var(--button-text-color) !important;
+    filter: invert(70%) sepia(5%) saturate(1713%) hue-rotate(265deg) brightness(88%) contrast(82%);
 }
 
 #back-button {
     list-style-image: url(image/left-arrow.svg) !important;
-}
+    filter: invert(70%) sepia(5%) saturate(1713%) hue-rotate(265deg) brightness(88%) contrast(82%);
+} */
 
 #PanelUI-button {
     margin-inline-start: 0 !important;
@@ -755,6 +756,10 @@ toolbar #new-tab-button:not([disabled="true"]):not([checked]):not([open]):not(:a
     list-style-image: url("image/right-arrow.svg") !important;
 }
 
+#search-container #searchbar .search-go-button {
+    list-style-image: url("image/right-arrow.svg") !important;
+}
+
 Styling Extra search bar that you can add to firefox #search-container #searchbar {
     outline: 0 !important;
     border: 0 !important;
@@ -763,10 +768,6 @@ Styling Extra search bar that you can add to firefox #search-container #searchba
     border-bottom: 1px solid var(--url-border-bottom-color) !important;
     border-top: 1px solid var(--url-border-top-color) !important;
     box-shadow: inset 1px 1px 1px 0px rgba(0, 0, 0, 0.35) !important;
-}
-
-#search-container #searchbar .search-go-button {
-    list-style-image: url("image/right-arrow.svg") !important;
 }
 
 #PopupSearchAutoComplete {
