@@ -3,7 +3,7 @@
     "position": "bottom",
     "modules-left": [
         "custom/launcher",
-        "wlr/workspaces"
+        "hyprland/workspaces"
     ],
     "modules-center": [
         "custom/spotify"
@@ -23,7 +23,7 @@
         "on-click": "sleep 0.05 && wofi --show drun --x 0 --y 508",
         "on-click-right": "killall wofi"
     },
-    "wlr/workspaces": {
+    "hyprland/workspaces": {
         "num-tags": 10,
         "sort-by-number": true,
         "on-click": "activate"
