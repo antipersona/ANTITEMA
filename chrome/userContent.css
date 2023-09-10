@@ -409,8 +409,3 @@ url("about:newtab") {
         background-color: var(--firefoxcss-main-bg-color) !important;
     }
 }
-
-/* Font */
-* {
-    font-family: "Manrope" !important;
-}
