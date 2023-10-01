@@ -2,12 +2,20 @@
 
 This is the theme that i use in my laptop and in my PC.
 
-Checkout the [hyprland](https://github.com/antipersona/ANTITEMA/tree/Hyprland) and the [i3](https://github.com/antipersona/ANTITEMA/tree/i3) branches to see how it looks in those environments.
+Chrome folder is a theme for firefox. It should be placed into ~/.mozilla/firefox/[profile]/chrome/ (in my case). You can check where is your .mozilla folder by typing about:profiles in the address bar of firefox.
 
-In this branch you can find a merge of all the dots used by those branches. They are compatible with each other, so you can have and i3 and a hyprland setup in the same machine using this branch.
+The rest of the folders should be placed on ~/.config/
 
-I will put here some screenshots, the guide for the installation of some of the programs and the dependencies:
+![terminal](screenshots/fetch.png)  //not updated yet
 
+
+- Spicetify theme was made using [Onepunch](https://github.com/okarin001/Onepunch) theme by okarin001 as a base.
+
+- Betterdiscord theme is a small modification of [amoled-cord](https://github.com/LuckFire/amoled-cord) by LuckFire.    
+
+- For the icons in wofi and waybar i use [awesome-font](https://fontawesome.com/).
+
+- Firefox theme is a modification of [this one](https://github.com/datguypiko/Firefox-Mod-Blur).
 
 ### Images
 ![terminal](screenshots/fetch.png)
@@ -16,14 +24,6 @@ I will put here some screenshots, the guide for the installation of some of the 
 ![spotify](screenshots/spoti.png)
 ![firefox](screenshots/firefox.gif)
 ![vscode](screenshots/vscode.png)
-
-
-### Installation
-The chrome folder is a theme for firefox. It should be placed into ~/.mozilla/firefox/[profile]/chrome/ (in my case). You can check where is your .mozilla folder by typing about:profiles in the address bar of firefox.
-
-The firefox theme is a modification of [this one](https://github.com/datguypiko/Firefox-Mod-Blur)
-
-The rest of the folders should be placed on ~/.config/
 
 
 ### VSCode
@@ -103,12 +103,23 @@ For vsCode, you will need to add the following lines to your settings.json file:
 
 
 ### Notifications
-Notifications deppend of the wm (find them in each branch readme)
+I use [mako](https://github.com/emersion/mako).
+
+![notifications](screenshots/noti.png) //not updated yet
 
 
 ### Wallpaper
 It was made by me, from an original piece by Jose Segrelles.
 ![wallpaper](screenshots/Jose_Segrelles_El_alienigena_2.jpg) 
+
+### wofi-fix-wifi-menu and wofi-bluetooth
+I made some modifications to wofi-wifi-menu to make it work in my system (the [empty password issue](https://github.com/zbaylin/rofi-wifi-menu/issues/22)) and to rofi-bluetooth to make it work with wofi. I also added some configuration like wofi-wifi-menu has. You can find them in the wofi folder.
+You can install them by running this commands:
+```
+sudo install -D -m 755 -t "/usr/bin/" .config/wofi/wofi-bluetooth/wofi-bluetooth
+sudo install -D -m 755 -t "/usr/bin/" .config/wofi/wofi-wifi-menu/wofi-wifi-menu
+```
+Or you can just change the references from wofi-wifi-menu and wofi-bluetooth to the path where you have the modified versions.
 
 
 ### Dependencies and some programs used
