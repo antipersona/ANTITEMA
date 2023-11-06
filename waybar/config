@@ -1,5 +1,5 @@
 {
-    "layer": "bottom",
+    "layer": "top",
     "position": "bottom",
     "modules-left": [
         "custom/launcher",
@@ -20,7 +20,7 @@
     "custom/launcher": {
         "tooltip": false,
         "format": "",
-        "on-click": "sleep 0.05 && wofi --show drun --x 0 --y 508",
+        "on-click": "sleep 0.05 && wofi --show drun --x 0 --y -25 --location 7",
         "on-click-right": "killall wofi"
     },
     "hyprland/workspaces": {
