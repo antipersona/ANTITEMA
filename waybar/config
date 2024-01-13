@@ -13,7 +13,7 @@
         "network#1",
         "bluetooth",
         "pulseaudio",
-        /*"battery",*/
+        "battery",
         "clock",
         "custom/clipboard"
     ],
@@ -103,8 +103,7 @@
         "interval": 60,
         "format": "{:%H:%M}",
         "max-length": 25
-    }
-    /*,
+    },
     "battery": {
         "interval": 60,
         "states": {
@@ -120,5 +119,5 @@
             ""
         ],
         "max-length": 25
-    }*/
+    }
 }
