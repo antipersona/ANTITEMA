@@ -52,7 +52,7 @@
     --border-radius: 18px;
 
 
-    --extra-tab-active-bg-color: var(--color-darkeste);
+    --extra-tab-active-bg-color: var(--color-darkest);
     --main-bg-color: var(--color-darkest);
     --tab-bg-color: var(--color-darkest);
     --tab-hover-bg-color: var(--color-accent-dark);
@@ -92,6 +92,8 @@
 #bookmarksPanel {
     background-color: var(--extra-tab-active-bg-color) !important;
 }
+
+/* 6 */
 
 /* Remove line on the right side of the Firefox view button */
 :root:not([privatebrowsingmode="temporary"]):not([firefoxviewhidden]) :is(#firefox-view-button, #wrapper-firefox-view-button)+#tabbrowser-tabs {
@@ -138,6 +140,8 @@
     -moz-box-ordinal-group: 3 !important;
 } */
 
+/* 5 */
+
 /* ----- Fix fullscreen issues with navigation bar at the top ----- */
 :root[tabsintitlebar][sizemode="maximized"] #navigator-toolbox {
     -moz-appearance: none !important;
@@ -155,6 +159,8 @@
     padding-top: 0px !important;
     padding-bottom: 0px !important;
 }
+
+/* 4 */
 
 /* ========================= Proton Height fixes ========================= */
 /* ----- Tabs Bar height ----- */
@@ -351,6 +357,9 @@ toolbar #new-tab-button:not([disabled="true"]):-moz-any([open], [checked], :hove
 /* Fix the Heigh of a tab because 
 if you change --tab-min-height it doesnt work for fullcreen
  */
+
+/* 3 */
+
 #TabsToolbar {
     padding-top: 0px !important;
     padding-bottom: 2px !important;
@@ -584,6 +593,8 @@ menupopup menuitem:is(#context-openlinkintab, #context-undo, #context-viewimage)
     margin-top: 5px !important;
 }
 
+/* 2 */
+
 /* ----------------------------------- */
 /* ----- Bookmarks bar set color------ */
 /* ----------------------------------- */
@@ -727,6 +738,9 @@ toolbar #new-tab-button:not([disabled="true"]):not([checked]):not([open]):not(:a
   visibility: visible !important;
   transition: opacity 0.2s ease;
 } */
+
+
+/* 1 */
 
 #tracking-protection-icon-container {
     display: none !important;
