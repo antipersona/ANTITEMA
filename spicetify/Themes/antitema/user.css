@@ -251,7 +251,6 @@ span.artist-artistVerifiedBadge-badge svg:nth-child(1) {
   color: var(--spice-subtext) !important;
 }
 
-
 .main-buddyFeed-activityMetadata .main-buddyFeed-username a {
   color: var(--spice-extratext) !important;
 }
@@ -352,11 +351,9 @@ input:checked:hover:not([disabled]):not(:active)~.x-toggle-indicatorWrapper {
 
 input {
   background-color: unset !important;
-  border-radius: 0 !important;
+  /* border-radius: 0 !important; */
   color: var(--spice-accent) !important;
 }
-
-*
 
 /* User widget */
 .main-userWidget-box {
@@ -527,9 +524,11 @@ input {
 .main-entityHeader-backgroundColor {
   display: none !important;
 }
+
 .main-actionBarBackground-background {
   display: none !important;
 }
+
 .main-home-homeHeader {
   display: none !important;
 }
